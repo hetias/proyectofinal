@@ -6,13 +6,13 @@
 }
 
 /*colores*/
-/*fondo     #3D1766*/
-/*tableros  #6F1AB6*/
-/*botones 1 #FF0032*/
-/*botones 2 #CD0404*/
+/*fondo     #976FA7*/
+/*tableros  #613574*/
+/*botones 1 #80C988*/
+/*botones 2 #38643C*/
 
 body{
-	background-color: #3D1766;
+	background-color: #976FA7;
 }
 
 /*-----------MAIN CONTAINER----------------*/
@@ -20,14 +20,14 @@ body{
 #main-container{
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
-	background-color: #3D1766;
+	background-color: #976FA7;
 }
 
 /*-----------NAV BAR----------------*/
 #nav-bar{
 	padding: 10px;
 	grid-column: 1 / 13;
-	background-color: #6F1AB6;
+	background-color: #613574;
 }
 
 #nav-bar ul{
@@ -35,29 +35,6 @@ body{
 	gap: 10px;
 	align-items: center;
 	justify-content: space-evenly;
-}
-
-.nav-element{
-	box-shadow: 0.2em 0.2em 0.3em rgba(0, 0, 0, 0.5);
-	background-color:#FF0032;
-	border-style: solid;
-	border-color: #FF0032;
-	border-radius: 10px;
-	display: inline-block;
-	transition: all 0.3s;
-}
-
-.nav-element:hover{
-	background-color: #CD0404;
-	border-color: #CD0404;
-}
-
-.nav-element a{
-	font-weight: 100;
-	font-size: 16px;
-	font-family: 'Open Sans', sans-serif;
-	color: black;
-	padding: 0.5em;
 }
 
 /*-----------INFO CONTAINER----------------*/
@@ -70,8 +47,8 @@ body{
 .info-section{
 	margin-top: 10px;
 	text-align: justify;
-	background-color: #3D1766;
-	color: #3D1766;
+	background-color: #976FA7;
+	color: #976FA7;
 	border-radius: 10px;
 	transition: all 1s;
 	padding:10px;
@@ -96,7 +73,7 @@ body{
 	box-shadow: 0.2em 0.2em 0.3em rgba(0, 0, 0, 0.5);
 	font-family: 'Open Sans', sans-serif;
 	margin: 10px;
-	background-color:#6F1AB6;
+	background-color:#613574;
 	border-radius: 50px;
 	grid-column: 7 / 13;
 	font-size: 32px;
@@ -117,6 +94,7 @@ body{
 }
 
 #image-container img{
+	box-shadow: 0.2em 0.2em 0.3em rgba(0, 0, 0, 0.5);
 	height: 100%;
 	width: 100%;
 	border-radius: 50%;
@@ -143,9 +121,9 @@ body{
 .contact-link{
 	font-family: 'Open Sans', sans-serif;
 	border-style: solid;
-	border-color: #FF0032;
+	border-color: #80C988;
 	border-radius: 0px;
-	background-color: #FF0032;
+	background-color: #80C988;
 	transition: all 0.5s;
 }
 
@@ -160,3 +138,25 @@ body{
 	margin: 1em;
 }
 
+.link-button{
+	box-shadow: 0.2em 0.2em 0.3em rgba(0, 0, 0, 0.5);
+	background-color:#80C988;
+	border-style: solid;
+	border-color: #80C988;
+	border-radius: 10px;
+	display: inline-block;
+	transition: all 0.3s;
+}
+
+.link-button a{
+	font-weight: 100;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+	padding: 0.5em;
+}
+
+.link-button:hover{
+	background-color: #38643C;
+	border-color: #38643C;
+}
